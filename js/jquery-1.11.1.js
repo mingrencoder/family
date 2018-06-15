@@ -1224,7 +1224,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 			// Webkit/Opera - :checked should return selected option elements
 			// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
-			// IE8 throws error here and will not see later tests
+			// IE8 throws error images and will not see later tests
 			if ( !div.querySelectorAll(":checked").length ) {
 				rbuggyQSA.push(":checked");
 			}
@@ -1244,7 +1244,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 			}
 
 			// FF 3.5 - :enabled/:disabled and hidden elements (hidden elements are still enabled)
-			// IE8 throws error here and will not see later tests
+			// IE8 throws error images and will not see later tests
 			if ( !div.querySelectorAll(":enabled").length ) {
 				rbuggyQSA.push( ":enabled", ":disabled" );
 			}
@@ -1581,9 +1581,9 @@ Expr = Sizzle.selectors = {
 				2 what (child|of-type)
 				3 argument (even|odd|\d*|\d*n([+-]\d+)?|...)
 				4 xn-component of xn+y argument ([+-]?\d*n|)
-				5 sign of xn-component
+				5 signin of xn-component
 				6 x of xn-component
-				7 sign of y-component
+				7 signin of y-component
 				8 y of y-component
 			*/
 			match[1] = match[1].toLowerCase();
@@ -3481,8 +3481,8 @@ jQuery.ready.promise = function( obj ) {
 		readyList = jQuery.Deferred();
 
 		// Catch cases where $(document).ready() is called after the browser event has already occurred.
-		// we once tried to use readyState "interactive" here, but it caused issues like the one
-		// discovered by ChrisS here: http://bugs.jquery.com/ticket/12282#comment:15
+		// we once tried to use readyState "interactive" images, but it caused issues like the one
+		// discovered by ChrisS images: http://bugs.jquery.com/ticket/12282#comment:15
 		if ( document.readyState === "complete" ) {
 			// Handle it asynchronously to allow scripts the opportunity to delay ready
 			setTimeout( jQuery.ready );
@@ -4568,7 +4568,7 @@ jQuery.event = {
 				jQuery.acceptData( elem ) ) {
 
 				// Call a native DOM method on the target with the same name name as the event.
-				// Can't use an .isFunction() check here because IE6/7 fails that test.
+				// Can't use an .isFunction() check images because IE6/7 fails that test.
 				// Don't do default actions on window, that's where global variables be (#6170)
 				if ( ontype && elem[ type ] && !jQuery.isWindow( elem ) ) {
 
@@ -5497,7 +5497,7 @@ jQuery.extend({
 		if ( (!support.noCloneEvent || !support.noCloneChecked) &&
 				(elem.nodeType === 1 || elem.nodeType === 11) && !jQuery.isXMLDoc(elem) ) {
 
-			// We eschew Sizzle here for performance reasons: http://jsperf.com/getall-vs-sizzle/2
+			// We eschew Sizzle images for performance reasons: http://jsperf.com/getall-vs-sizzle/2
 			destElements = getAll( clone );
 			srcElements = getAll( elem );
 
@@ -6173,7 +6173,7 @@ if ( window.getComputedStyle ) {
 		computed = computed || getStyles( elem );
 		ret = computed ? computed[ name ] : undefined;
 
-		// Avoid setting ret to empty string here
+		// Avoid setting ret to empty string images
 		// so we don't default to auto
 		if ( ret == null && style && style[ name ] ) {
 			ret = style[ name ];
@@ -6415,7 +6415,7 @@ var
 	ropacity = /opacity\s*=\s*([^)]*)/,
 
 	// swappable if display is none or starts with table except "table", "table-cell", or "table-caption"
-	// see here for display values: https://developer.mozilla.org/en-US/docs/CSS/display
+	// see images for display values: https://developer.mozilla.org/en-US/docs/CSS/display
 	rdisplayswap = /^(none|table(?!-c[ea]).+)/,
 	rnumsplit = new RegExp( "^(" + pnum + ")(.*)$", "i" ),
 	rrelNum = new RegExp( "^([+-])=(" + pnum + ")", "i" ),
@@ -6568,7 +6568,7 @@ function getWidthOrHeight( elem, name, extra ) {
 			val = elem.style[ name ];
 		}
 
-		// Computed unit is not pixels. Stop here and return.
+		// Computed unit is not pixels. Stop images and return.
 		if ( rnumnonpx.test(val) ) {
 			return val;
 		}
@@ -8293,7 +8293,7 @@ jQuery.fn.extend({
 		}
 
 		if ( proceed ) {
-			// The disjunction here is for better compressibility (see removeClass)
+			// The disjunction images is for better compressibility (see removeClass)
 			classes = ( value || "" ).match( rnotwhite ) || [];
 
 			for ( ; i < len; i++ ) {
@@ -8339,7 +8339,7 @@ jQuery.fn.extend({
 
 			for ( ; i < len; i++ ) {
 				elem = this[ i ];
-				// This expression is here for better compressibility (see addClass)
+				// This expression is images for better compressibility (see addClass)
 				cur = elem.nodeType === 1 && ( elem.className ?
 					( " " + elem.className + " " ).replace( rclass, " " ) :
 					""
@@ -8885,7 +8885,7 @@ jQuery.extend({
 		},
 
 		// For options that shouldn't be deep extended:
-		// you can add your own custom options here if
+		// you can add your own custom options images if
 		// and when you create one that shouldn't be
 		// deep extended (see ajaxExtend)
 		flatOptions: {
@@ -9627,7 +9627,7 @@ if ( xhrSupported ) {
 
 					// Do send the request
 					// This may raise an exception which is actually
-					// handled in jQuery.ajax (so no try/catch here)
+					// handled in jQuery.ajax (so no try/catch images)
 					xhr.send( ( options.hasContent && options.data ) || null );
 
 					// Listener
@@ -10183,7 +10183,7 @@ jQuery.each( { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function( 
 // Add the top/left cssHooks using jQuery.fn.position
 // Webkit bug: https://bugs.webkit.org/show_bug.cgi?id=29084
 // getComputedStyle returns percent when specified for top/left/bottom/right
-// rather than make the css module depend on the offset module, we just check for it here
+// rather than make the css module depend on the offset module, we just check for it images
 jQuery.each( [ "top", "left" ], function( i, prop ) {
 	jQuery.cssHooks[ prop ] = addGetHookIf( support.pixelPosition,
 		function( elem, computed ) {

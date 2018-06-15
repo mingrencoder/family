@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="042cdd5e-2475-4fbc-aeea-c7e3acdc392e" name="Default" comment="" />
+    <list default="true" id="042cdd5e-2475-4fbc-aeea-c7e3acdc392e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/brand/bootstrap-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/brand/bootstrap-punchout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/brand/bootstrap-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/docs.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/docs.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/ie10-viewport-bug-workaround.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/src/docs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/src/pygments-manni.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/flash/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/components.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/devices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/expo-lyft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/expo-newsweek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/expo-riot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/expo-vogue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sass-less.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/customize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/raw-files.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/src/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/src/customizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/Blob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/FileSaver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/anchor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/autoprefixer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/less.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vendor/uglify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/signin/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-1.11.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-1.11.1.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,11 +54,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="316">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/signin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -32,10 +81,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hello.html" />
+        <option value="$PROJECT_DIR$/signin/index.html" />
+        <option value="$PROJECT_DIR$/signin/signin.html" />
+        <option value="$PROJECT_DIR$/signin.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -61,22 +116,14 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="bootstrap-3.3.7-dist" type="cbb8eebc:String" user="bootstrap-3.3.7-dist" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,30 +134,18 @@
             <path>
               <item name="bootstrap-3.3.7-dist" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootstrap-3.3.7-dist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="bootstrap-3.3.7-dist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-theme.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="bootstrap-3.3.7-dist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
             <path>
-              <item name="bootstrap-3.3.7-dist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-1.11.1.js" type="620a8d5e:NestingTreeNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="bootstrap-3.3.7-dist" type="cbb8eebc:String" user="bootstrap-3.3.7-dist" />
             </path>
           </expand>
           <select />
@@ -125,7 +160,14 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\bootstrap\bootstrap-3.3.7-dist\css\sign" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\bootstrap\bootstrap-3.3.7-dist\images" />
+      <recent name="D:\code\bootstrap\bootstrap-3.3.7-dist" />
+      <recent name="D:\code\bootstrap\bootstrap-3.3.7-dist\" />
+      <recent name="D:\code\bootstrap\bootstrap-3.3.7-dist\css" />
       <recent name="D:\code\bootstrap\bootstrap-3.3.7-dist\js" />
     </key>
   </component>
@@ -161,12 +203,13 @@
       <updated>1528554914957</updated>
       <workItem from="1528554917763" duration="2243000" />
       <workItem from="1528596118774" duration="2231000" />
-      <workItem from="1528727973215" duration="3647000" />
+      <workItem from="1528727973215" duration="4286000" />
+      <workItem from="1529071316953" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8121000" />
+    <option name="totallyTimeSpent" value="11115000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -180,15 +223,16 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.18020834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.1296875" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49895832" weight="0.32943678" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.3209352" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49947917" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947917" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50164473" side_tool="true" weight="0.18229716" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4984375" visible="true" weight="0.3209352" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49791667" weight="0.30212766" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -206,6 +250,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="70" lean-forward="true" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -230,10 +281,41 @@
     <entry file="file://$PROJECT_DIR$/js/html5shiv.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/ie10-viewport-bug-workaround.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/src/customizer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/signin/signin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signin/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state relative-caret-position="316">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>
