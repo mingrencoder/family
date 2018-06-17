@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>实验室</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+    <script src="../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        body
+        {
+            padding:50px;
+        }
+        [class *= col-]{
+            background-color: #eee;
+            border: 1px solid #ccc;
+        }
+        [class *= col-] [class *= col-] {
+            background-color: #f36;
+            border:1px dashed #fff;
+            color: #fff;
+        }
+        .dropdown{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>字体</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <p>第一个是普通的内容：“我是一个普通的段落，我不需要强调显示”。</p>
+        <p class="lead">第二个是强调的内容：“这部分内容需要特别的强调，我和别人长得不一样”。</p>
+        <p>我是一个段落，这个段落中“<strong>强调</strong>”一词将会加粗显示。</p>
+        <p>我正在学习<i>斜体</i>。</p>
+
+        <div class="text-muted">.text-muted 效果</div>
+        <div class="text-primary">.text-primary效果</div>
+        <div class="text-success">.text-success效果</div>
+        <div class="text-info">.text-info效果</div>
+        <div class="text-warning">.text-warning效果</div>
+        <div class="text-danger">.text-danger效果</div>
+
+        <p class="text-left">我居左</p>
+        <p class="text-center">我居中</p>
+        <p class="text-right">我居右</p>
+        <p class="text-justify">我两端对齐</p>
+
+        <br>
+
+        <ul>
+            <li class="list-unstyled">去点无序列表信一</li>
+            <li>无序列表信息</li>
+            <ul>
+                <li class="list-unstyled">去点无序列表信息一</li>
+                <li>无序列表信息二</li>
+                <li>无序列表信息三</li>
+            </ul>
+        </ul>
+
+        <ul>
+            <li>无序列表信息一</li>
+            <li>无序列表信息二</li>
+            <li>无序列表信息三</li>
+        </ul>
+
+        <ol>
+            <li>有序列表信息一</li>
+            <li>有序列表信息二</li>
+            <li>有序列表信息三</li>
+        </ol>
+
+        <dl>
+            <dt>列表标题</dt>
+            <dd>列表信息1</dd>
+            <dd>列表信息2</dd>
+        </dl>
+
+        <p>城市:</p>
+        <ul class="list-inline">
+            <li>北京</li>
+            <li>上海</li>
+            <li>南京</li>
+            <li>厦门</li>
+        </ul>
+
+        <dl class="dl-horizontal">
+            <dt>水平的标题1很长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长</dt>
+            <dd>哈哈哈</dd>
+            <dt>水平标题</dt>
+            <dd>啦啦啦</dd>
+        </dl>
+
+        <!--1、<code>：一般是针对于单个单词或单个句子的代码-->
+        <!--2、<pre>：一般是针对于多行代码（也就是成块的代码）-->
+        <!--3、<kbd>:一般是表示用户要通过键盘输入的内容-->
+        不管使用哪种代码风格，在代码中碰到小于号（<）要使用硬编码“&lt;”来替代，大于号(>)使用“&gt;”来替代。
+        <div>
+            Bootstrap的代码风格有三种：
+            <br/>
+            <code>
+                public void code()
+            </code>
+
+            <!--默认高度340px-->
+            <pre  class="pre-scrollable">
+            public void pre()
+            public void pre1()
+            public void pre2()
+            public void pre3()
+            public void pre4()
+            public void pre5()
+            public void pre6()
+            public void pre7()
+            public void pre8()
+            public void pre9()
+            public void pre1()
+            public void pre2()
+            public void pre3()
+            public void pre4()
+            public void pre5()
+            public void pre6()
+            public void pre7()
+            public void pre8()
+            public void pre9()
+        </pre>
+
+            <kbd>
+                public void kbd()
+            </kbd>
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>字体</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>表格</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <dl>
+            <dt>表格</dt>
+            <dd>.table：基础表格</dd>
+            <dd>.table-striped：斑马线表格</dd>
+            <dd>.table-bordered：带边框的表格</dd>
+            <dd>.table-hover：鼠标悬停高亮的表格</dd>
+            <dd>.table-condensed：紧凑型表格</dd>
+            <dd>.table-responsive：响应式表格</dd>
+        </dl>
+        <h1>基础表格</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+                <tr>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>带边框的表格</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+                <tr>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>鼠标悬浮高亮的表格</h1>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="active">
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+                <tr class="success">
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+                <tr class="info">
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+                <tr class="warning">
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+                <tr class="danger">
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>紧凑型表格</h1>
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                    <th>表格标题</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+                <tr>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>响应式表格</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>表格标题</th>
+                        <th>表格标题</th>
+                        <th>表格标题</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>表格单元格</td>
+                        <td>表格单元格</td>
+                        <td>表格单元格</td>
+                    </tr>
+                    <tr>
+                        <td>表格单元格</td>
+                        <td>表格单元格</td>
+                        <td>表格单元格</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>表格</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>表单</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <form role="form">
+            <div class="form-group">
+                <label for="exampleInputEmail1">邮箱：</label>
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder="请输入您的邮箱地址">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">密码：</label>
+                <input type="password" class="form-control" id="exampleInputPassword" placeholder="请输入您的邮箱密码">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> 记住密码
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">进入邮箱</button>
+
+            <div class="form-group">
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select multiple class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="checkbox">
+                <label class=" checkbox-inline">
+                    <input type="checkbox" value="">
+                    西瓜
+                </label>
+                <label class=" checkbox-inline">
+                    <input type="checkbox" value="">
+                    草莓
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="radio-inline">
+                    <input type="radio"  value="option1" name="sex"  checked>男性
+                </label>
+                <label class="radio-inline">
+                    <input type="radio"  value="option2" name="sex">女性
+                </label>
+                <label class="radio-inline">
+                    <input type="radio"  value="option3" name="sex">中性
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="love" checked>
+                    喜欢
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="hate">
+                    不喜欢
+                </label>
+            </div>
+        </form>
+
+        <h1>内联表单</h1>
+        <form role="form" class="form-inline">
+            <div class="form-group">
+                <label for="exampleInputEmail1">邮箱：</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入您的邮箱地址">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">密码：</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入您的邮箱密码">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> 记住密码
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">进入邮箱</button>
+
+            <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+        </form>
+
+        <p>
+            1、input-sm:让控件比正常大小更小
+            2、input-lg:让控件比正常大小更大
+        </p>
+        <form role="form">
+            <div class="form-group">
+                <label class="control-label">控件变大</label>
+                <input class="form-control input-lg" type="text" placeholder="添加.input-lg，控件变大">
+            </div>
+            <div class="form-group">
+                <label class="control-label">正常大小</label>
+                <input class="form-control" type="text" placeholder="正常大小">
+            </div>
+            <div class="form-group">
+                <label class="control-label">控件变小</label>
+                <input class="form-control input-sm" type="text" placeholder="添加.input-sm，控件变小">
+            </div>
+        </form>
+
+        <br>
+
+        <h1>宽高 变大变小</h1>
+        <form role="form" class="form-horizontal">
+            <div class="form-group">
+                <div class="col-xs-4">
+                    <input class="form-control input-lg" type="text" placeholder=".col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <input class="form-control input-lg" type="text" placeholder=".col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <input class="form-control input-lg" type="text" placeholder=".col-xs-4">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-6"><input class="form-control" type="text" placeholder=".col-xs-6"></div>
+                <div class="col-xs-6"><input class="form-control" type="text" placeholder=".col-xs-6"></div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-5">
+                    <input class="form-control input-sm" type="text" placeholder=".col-xs-5">
+                </div>
+                <div class="col-xs-7">
+                    <input class="form-control input-sm" type="text" placeholder=".col-xs-7">
+                </div>
+            </div>
+        </form>
+
+        <h3>禁用</h3>
+        <form role="form">
+            <legend><input type="text" class="form-control" placeholder="显然我颜色变灰了，但是我没被禁用，不信？单击试一下" disabled/></legend>
+            <div class="form-group">
+                <label for="disabledTextInput">禁用的输入框</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="禁止输入" disabled>
+            </div>
+            <div class="form-group">
+                <label for="disabledSelect">禁用的下拉框</label>
+                <select id="disabledSelect" class="form-control" >
+                    <option disabled>不可选择</option>
+                    <option>可选择</option>
+                    <option>可选择</option>
+                </select>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" disabled> 无法选择
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary" disabled>提交</button>
+        </form>
+
+
+        <h1>输入栏状态</h1>
+        <form role="form">
+            <div class="form-group has-success has-feedback">
+                <label class="control-label" for="inputSuccess1">成功状态</label>
+                <input type="text" class="form-control" id="inputSuccess1" placeholder="成功状态" >
+                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                <span class="help-block">你输入的信息是正确的</span>
+            </div>
+            <div class="form-group has-warning has-feedback">
+                <label class="control-label" for="inputWarning1">警告状态</label>
+                <input type="text" class="form-control" id="inputWarning1" placeholder="警告状态">
+                <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                <span class="help-block">请输入正确信息</span>
+            </div>
+            <div class="form-group has-error has-feedback">
+                <label class="control-label" for="inputError1">错误状态</label>
+                <input type="text" class="form-control" id="inputError1" placeholder="错误状态">
+                <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                <span class="help-block">你输入的信息是错误的</span>
+            </div>
+        </form>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>表单</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>按钮</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Button</th>
+                    <th>class=""</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button class="btn" href="#">基本按钮</button></td>
+                    <td><code>btn</code></td>
+                    <td>Standard gray button with gradient</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-default" href="#">默认按钮</button></td>
+                    <td><code>btn-default</code></td>
+                    <td>Standard gray button with gradient</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-primary" href="#">主要按钮<span class="badge">99</span></button></td>
+                    <td><code>btn btn-primary</code></td>
+                    <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-info" href="#">提示按钮</button></td>
+                    <td><code>btn btn-info</code></td>
+                    <td>Used as an alternative to the default styles</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-success" href="#">成功按钮</button></td>
+                    <td><code>btn btn-success</code></td>
+                    <td>Indicates a successful or positive action</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-warning" href="#">警告按钮</button></td>
+                    <td><code>btn btn-warning</code></td>
+                    <td>Indicates caution should be taken with this action</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-danger" href="#">危险按钮</button></td>
+                    <td><code>btn btn-danger</code></td>
+                    <td>Indicates a dangerous or potentially negative action</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-inverse" href="#">Inverse</button></td>
+                    <td><code>btn btn-inverse</code></td>
+                    <td>Alternate dark gray button, not tied to a semantic action or use</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-link" href="#">link</button></td>
+                    <td><code>btn btn-link</code></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn btn-primary btn-lg" type="button">大型按钮.btn-lg</button>
+        <button class="btn btn-primary" type="button">正常按钮</button>
+        <button class="btn btn-primary btn-sm" type="button">小型按钮.btn-sm</button>
+        <button class="btn btn-primary btn-xs" type="button">超小型按钮.btn-xs</button>
+
+        <pre>btn-block按钮块</pre>
+        <button class="btn btn-primary btn-lg btn-block" type="button">大型按钮.btn-lg</button>
+        <button class="btn btn-primary btn-block" type="button">正常按钮</button>
+
+        <p>
+            方法1：在标签中添加disabled属性
+            方法2：在元素标签中添加类名“disabled”
+        </p>
+        <button class="btn btn-primary btn-block" type="button" disabled="disabled">通过disabled属性禁用按</button>
+        <button class="btn btn-primary btn-block disabled" type="button">通过添加类名disabled禁用按钮</button>
+
+        <br>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-step-backward"></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fast-backward"></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-backward"></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-pause"></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-stop"></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-forward "></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fast-forward"></span></button>
+            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-step-forward"></span></button>
+        </div>
+
+        <dl>
+            <dt>按钮组大小</dt>
+            <dd><code>btn-group-lg</code>大按钮组</dd>
+            <dd><code>btn-group-sm</code>小按钮组</dd>
+            <dd><code>btn-group-xs</code>超小按钮组</dd>
+        </dl>
+
+        <div class="btn-toolbar">
+            <div class="btn-group btn-group-lg">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-right"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-justify"></span></button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-indent-left"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-indent-right"></span></button>
+            </div>
+            <div class="btn-group btn-group-sm">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-font"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-bold"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-italic"></span></button>
+            </div>
+            <div class="btn-group btn-group-xs">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-text-height"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-text-width"></span></button>
+            </div>
+        </div>
+
+        <h4>套嵌按钮组</h4>
+        <!--<div class="btn-group-vertical"> 垂直排列-->
+        <!--<div class="btn-group btn-group-justified"> btn-group-justified 均等排列-->
+        <div class="btn-group">
+            <a class="btn btn-default" type="button">首页</a>
+            <a class="btn btn-default" type="button">产品展示</a>
+            <a class="btn btn-default" type="button">案例分析</a>
+            <a class="btn btn-default" type="button">联系我们</a>
+            <div class="btn-group">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">关于我们<span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="##">公司简介</a></li>
+                    <li><a href="##">企业文化</a></li>
+                    <li><a href="##">组织结构</a></li>
+                    <li><a href="##">客服服务</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <!--用btn-group也可以实现下拉框效果-->
+        <!--<div class="btn-group dropup"> dropup向上弹出 -->
+        <div class="btn-group">
+            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">
+                按钮下拉菜单<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="##">按钮下拉菜单项</a></li>
+                <li><a href="##">按钮下拉菜单项</a></li>
+                <li><a href="##">按钮下拉菜单项</a></li>
+                <li><a href="##">按钮下拉菜单项</a></li>
+            </ul>
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>按钮</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>图片</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <img   alt="140x140" src="http://placehold.it/140x140">
+            <div>默认图片</div>
+        </div>
+        <div class="col-sm-4">
+            <img  class="img-rounded" alt="140x140" src="http://placehold.it/140x140">
+            <div>圆角图片</div>
+        </div>
+        <div class="col-sm-4">
+            <img  class="img-circle" alt="140x140" src="http://placehold.it/140x140">
+            <div>圆形图片</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img  class="img-thumbnail" alt="140x140" src="http://placehold.it/140x140">
+                <div>缩略图</div>
+            </div>
+            <div class="col-sm-6">
+                <img  class="img-responsive" alt="140x140" src="http://placehold.it/140x140" />
+                <div>响应式图片</div>
+            </div>
+        </div>
+
+        <span class="glyphicon glyphicon-search"></span>
+        <span class="glyphicon glyphicon-asterisk"></span>
+        <span class="glyphicon glyphicon-plus"></span>
+        <span class="glyphicon glyphicon-cloud"></span>
+
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>图片</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>网格系统</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-8">.col-md-8</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-2 col-md-offset-4">col-md-2(列向右移动四列)</div>
+            <div class="col-md-2">.col-md-3</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4 col-md-offset-4">col-md-4(列向右移动四列)</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-push-8">.col-md-4</div>
+            <div class="col-md-8 col-md-pull-4">.col-md-8</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                我的里面嵌套了一个网格
+                <div class="row">
+                    <div class="col-md-6">col-md-6</div>
+                    <div class="col-md-6">col-md-6</div>
+                </div>
+            </div>
+            <div class="col-md-4">col-md-4</div>
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>网格系统</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>菜单</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h4><strong>菜单注意事项</strong></h4>
+        <dl>
+            <dd>使用一个名为<code>“dropdown”</code>的容器包裹了整个下拉菜单元素</dd>
+            <pre>div class="dropdown"</pre>
+            <dd>使用了一个<code>button</code>按钮做为父菜单，并且定义类名<code>“dropdown-toggle”</code>和自定义<code>“data-toggle”</code>属性，且值必须和最外容器类名一致</dd>
+            <pre>data-toggle="dropdown"</pre>
+            <dd>下拉菜单项使用一个ul列表，并且定义一个类名为<code>“dropdown-menu”</code></dd>
+            <pre>ul class="dropdown-menu"</pre>
+        </dl>
+
+        <h4><strong>菜单对齐方式</strong></h4>
+        <dl>
+            <dd>右对齐1</dd>
+            <pre>pull-right</pre>
+            <dd>右对齐2</dd>
+            <pre>dropdown-menu-right</pre>
+            <dd>左对齐</dd>
+            <pre>dropdown-menu-left</pre>
+        </dl>
+
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                下拉菜单
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-left" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"class="active"><a role="menuitem" tabindex="-1" href="#">菜单项一</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">菜单项二</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation" class="dropdown-header">子菜单头部</li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">菜单项三<span class="badge">99</span></a></li>
+                <li role="presentation"class="disabled"><a role="menuitem" tabindex="-1" href="#">菜单项四</a></li>
+            </ul>
+        </div>
+
+        <br/>
+        <br/>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>菜单</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>导航</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h4>普通</h4>
+        <!--<ul class="nav nav-tabs nav-justified">  nav-justified自适应屏幕大小-->
+        <ul class="nav nav-tabs">
+            <li  class="active"><a href="##">Home</a></li>
+            <li><a href="##">CSS3</a></li>
+            <li><a href="##">Sass</a></li>
+            <li><a href="##">jQuery</a></li>
+            <li  class="disabled"><a href="##">Responsive</a></li>
+            <li class="dropdown">
+                <a href="##" class="dropdown-toggle" data-toggle="dropdown">教程<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="##">CSS3</a></li>
+                    <li><a href="##">Sass</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <br/>
+
+        <h4>胶囊</h4>
+        <ul class="nav nav-pills">
+            <li class="active"><a href="##">Home</a></li>
+            <li><a href="##">CSS3</a></li>
+            <li><a href="##">Sass</a></li>
+            <li><a href="##">jQuery<span class="badge">14</span></a></li>
+            <li class="disabled"><a href="##">Responsive</a></li>
+            <li class="dropdown">
+                <a href="##" class="dropdown-toggle" data-toggle="dropdown">教程<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="##">CSS3</a></li>
+                    <li><a href="##">Sass</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <br/>
+
+        <h4>竖向排列</h4>
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="##">Home</a></li>
+            <li><a href="##">CSS3</a></li>
+            <li><a href="##">Sass</a></li>
+            <li><a href="##">jQuery</a></li>
+            <li class="nav-divider"></li>
+            <li class="disabled"><a href="##">Responsive</a></li>
+        </ul>
+
+        <br/>
+
+        <h4>面包屑</h4>
+        <ol class="breadcrumb">
+            <li><a href="#">首页</a></li>
+            <li class="active"><a href="#">我的书</a></li>
+            <li><a href="#">图解CSS3</a></li>
+        </ol>
+
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>导航</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>导航条</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h4><strong>导航条a标签的样式</strong></h4>
+        <dl>
+            <dd>导航条中的按钮</dd>
+            <pre>navbar-btn</pre>
+            <dd>导航条中的文本</dd>
+            <pre>navbar-text</pre>
+            <dd>导航条中的普通链接</dd>
+            <pre>navbar-link</pre>
+        </dl>
+        <p>但这三种样式在框架中使用时受到一定的限制，需要和navbar-brand、navbar-nav配合起来使用。而且对数量也有一定的限制，一般情况在使用一到两个不会有问题，超过两个就会有问题。</p>
+
+        <br/>
+
+        <!-- navbar-fixed-top为固定头部-->
+        <div class="navbar navbar-default navbar-inverse" role="navigation">
+            <!--导航条头部-->
+            <div class="navbar-header">
+            　  <!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
+                <button class="navbar-toggle" type="button" data-toggle="collapse"data-target="#id-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
+        　      <a href="##" class="navbar-brand">学习网站</a>
+        　  </div>
+
+            <!--导航条内容-->
+            <div class="collapse navbar-collapse" id="id-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">网站首页</a></li>
+                    <li><a href="#">名师介绍</a></li>
+                    <li><a href="##">成功案例<span class="badge">23</span></a></li>
+                    <!--加入了下拉框-->
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">系列教程<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li class="disabled"><a href="##">JAVA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form action="#" class="navbar-form navbar-left" rol="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="请输入关键词" />
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+            </div>
+        </div>
+
+        <br/>
+        <!--分页导航-->
+        <!--<ul class="pagination pagination-lg">-->
+        <!--<ul class="pagination pagination-sm">-->
+        <ul class="pagination pagination">
+            <li><a href="#">&laquo;第一页</a></li>
+            <li><a href="#">11</a></li>
+            <li><a href="#">12</a></li>
+            <li class="active"><a href="#">13</a></li>
+            <li><a href="#">14</a></li>
+            <li><a href="#">15</a></li>
+            <li class="disabled"><a href="#">最后一页&raquo;</a></li>
+        </ul>
+
+        <!--代码-->
+        <ul class="pager">
+            <li><a href="#">&laquo;上一页</a></li>
+            <li><a href="#">下一页&raquo;</a></li>
+        </ul>
+        <!--左右对齐-->
+        <ul class="pager">
+            <li class="previous disabled"><a>&laquo;上一页</a></li>
+            <li class="next"><a href="#">下一页&raquo;</a></li>
+        </ul>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>导航条</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>标签</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <span class="label label-default">默认标签</span>
+        <span class="label label-primary">主要标签</span>
+        <span class="label label-success">成功标签</span>
+        <span class="label label-info">信息标签</span>
+        <span class="label label-warning">警告标签</span>
+        <span class="label label-danger">错误标签</span>
+
+        <h4>徽章</h4>
+        <span class="badge">99</span>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>标签</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>缩略图</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <p>
+            通过“thumbnail”样式配合bootstrap的网格系统来实现。
+        </p>
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <!--图片-->
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="http://img.mukewang.com/5434eba100014fe906000338.png" style="height: 180px; width: 100%; display: block;" >
+                </a>
+                <!--加入其他元素-->
+                <div class="caption">
+                    <h3>Bootstrap框架系列教程</h3>
+                    <p>Bootstrap框架是一个优秀的前端框，就算您是一位后端程序员或者你是一位不懂设计的前端人员，你也能依赖于Bootstrap制作做优美的网站...</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">正在学习</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="http://img.mukewang.com/5434eba100014fe906000338.png" style="height: 180px; width: 100%; display: block;">
+                </a>
+                <div class="caption">
+                    <h3>Bootstrap框架系列教程</h3>
+                    <p>Bootstrap框架是一个优秀的前端框，就算您是一位后端程序员或者你是一位不懂设计的前端人员，你也能依赖于Bootstrap制作做优美的网站...</p>
+                    <p>
+                        <a href="##" class="btn btn-primary">开始学习</a>
+                        <a href="##" class="btn btn-info">正在学习</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="http://img.mukewang.com/5434eba100014fe906000338.png" style="height: 180px; width: 100%; display: block;" >
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img alt="100%x180" src="http://img.mukewang.com/5434eba100014fe906000338.png" style="height: 180px; width: 100%; display: block;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>缩略图</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>警示框</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h2>默认的警示框</h2>
+        <div class="alert alert-success" role="alert">恭喜您操作成功！</div>
+        <div class="alert alert-info" role="alert">请输入正确的密码</div>
+        <div class="alert alert-warning" role="alert">您已操作失败两次，还有最后一次机会</div>
+        <div class="alert alert-danger" role="alert">对不起，您输入的密码有误</div>
+
+        <h2>可关闭的警示框</h2>
+        <p>
+            class="alert-dismissable"
+            data-dismiss="alert"
+        </p>
+        <div class="alert alert-success alert-dismissable" role="alert">
+            <button class="close" type="button" data-dismiss="alert">&times;</button>
+            恭喜您操作成功！
+        </div>
+        <div class="alert alert-info alert-dismissable" role="alert">
+            <button class="close" type="button" data-dismiss="alert">&times;</button>
+            请输入正确的密码
+        </div>
+        <div class="alert alert-warning alert-dismissable" role="alert">
+            <button class="close" type="button" data-dismiss="alert">&times;</button>
+            您已操作失败两次，还有最后一次机会
+        </div>
+        <div class="alert alert-danger alert-dismissable" role="alert">
+            <button class="close" type="button" data-dismiss="alert">&times;</button>
+            对不起，您输入的密码有误
+        </div>
+
+        <h2>警示框的链接</h2>
+        <p>
+            class="alert-link"
+        </p>
+        <div class="alert alert-success" role="alert">
+            <strong>Well done!</strong>
+            You successfully read
+            <a href="#" class="alert-link">this important alert message</a>
+            .
+        </div>
+        <div class="alert alert-info" role="alert">
+            <strong>Heads up!</strong>
+            This
+            <a href="#" class="alert-link">alert needs your attention</a>
+            , but it's not super important.
+        </div>
+        <div class="alert alert-warning" role="alert">
+            <strong>Warning!</strong>
+            Better check yourself, you're
+            <a href="#" class="alert-link">not looking too good</a>
+            .
+        </div>
+        <div class="alert alert-danger" role="alert">
+            <strong>Oh snap!</strong>
+            <a href="#" class="alert-link">Change a few things up</a>
+            and try submitting again.
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>警示框</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>进度条</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h2>基本进度条</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width:40%">
+            </div>
+        </div>
+        <h2>彩色进度条</h2>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" style="width:40%"></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" style="width:60%"></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning" style="width:80%"></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger" style="width:50%"></div>
+        </div>
+        <h2>条纹进度条</h2>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-success" style="width:40%"></div>
+        </div>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-info" style="width:60%"></div>
+        </div>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-warning" style="width:80%"></div>
+        </div>
+        <div class="progress progress-striped">
+            <div class="progress-bar progress-bar-danger" style="width:50%"></div>
+        </div>
+        <h2>动态条纹进度条</h2>
+        <div class="progress progress-striped active">
+            <div class="progress-bar progress-bar-success" style="width:40%"></div>
+        </div>
+        <div class="progress progress-striped active">
+            <div class="progress-bar progress-bar-info" style="width:60%"></div>
+        </div>
+        <div class="progress progress-striped active">
+            <div class="progress-bar progress-bar-warning" style="width:80%"></div>
+        </div>
+        <div class="progress progress-striped active">
+            <div class="progress-bar progress-bar-danger" style="width:50%"></div>
+        </div>
+        <h2>层叠进度条</h2>
+        <h5>正常层叠进度条</h5>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" style="width:20%"></div>
+            <div class="progress-bar progress-bar-info" style="width:10%"></div>
+            <div class="progress-bar progress-bar-warning" style="width:30%"></div>
+            <div class="progress-bar progress-bar-danger" style="width:15%"></div>
+        </div>
+        <h5>不良效果层叠进度条</h5>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" style="width:20%"></div>
+            <div class="progress-bar progress-bar-info" style="width:40%"></div>
+            <div class="progress-bar progress-bar-warning" style="width:30%"></div>
+            <div class="progress-bar progress-bar-danger" style="width:45%"></div>
+        </div>
+        <h5>层叠条纹进度条</h5>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" style="width:20%"></div>
+            <div class="progress-bar progress-bar-info" style="width:20%"></div>
+            <div class="progress-bar progress-bar-warning" style="width:30%"></div>
+            <div class="progress-bar progress-bar-danger" style="width:15%"></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped" style="width:20%"></div>
+            <div class="progress-bar progress-bar-info progress-bar-striped" style="width:20%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-warning" style="width:30%"></div>
+            <div class="progress-bar progress-bar-danger progress-bar-striped" style="width:15%"></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" style="width:20%"></div>
+            <div class="progress-bar progress-bar-info progress-bar-striped" style="width:20%"></div>
+            <div class="progress-bar progress-bar-warning" style="width:30%"></div>
+            <div class="progress-bar progress-bar-danger progress-bar-striped" style="width:15%"></div>
+        </div>
+        <h2>带Label的进度条</h2>
+        <h5>进度条1</h5>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">20%</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"   style="width:70%">70%</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">30%</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:15%">15%</div>
+        </div>
+
+        <h5>进度条2</h5>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>进度条</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>媒体对象</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h3>默认媒体对象</h3>
+        <div class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="http://img.mukewang.com/52e1d29d000161fe06000338-300-170.jpg" alt="...">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">系列：十天精通CSS3</h4>
+                <div>全方位深刻详解CSS3模块知识，经典案例分析，代码同步调试，让网页穿上绚丽装备！</div>
+            </div>
+        </div>
+        <h3>媒体对象的嵌套</h3>
+        <div class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="http://a.disquscdn.com/uploads/users/3740/2069/avatar92.jpg?1406972031" alt="...">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">我是大漠</h4>
+                <div>我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例</div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://tp2.sinaimg.cn/3306361973/50/22875318196/0" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">慕课网</h4>
+                        <div>大漠写的《玩转Bootstrap》系列教程即将会在慕课网上发布</div>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="http://tp4.sinaimg.cn/1167075935/50/22838101204/1" alt="...">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">W3cplus</h4>
+                                <div>W3cplus站上还有很多教程....</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>媒体对象列表</h3>
+        <ul class="media-list">
+            <li class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" src="http://a.disquscdn.com/uploads/users/3740/2069/avatar92.jpg?1406972031" alt="...">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">我是大漠</h4>
+                    <div>我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例</div>
+                </div>
+            </li>
+            <li class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" src="http://tp2.sinaimg.cn/3306361973/50/22875318196/0" alt="...">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">慕课网</h4>
+                    <div>大漠写的《玩转Bootstrap》系列教程即将会在慕课网上发布</div>
+                </div>
+            </li>
+            <li class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" src="http://tp4.sinaimg.cn/1167075935/50/22838101204/1" alt="...">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">W3cplus</h4>
+                    <div>W3cplus站上还有很多教程....</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>媒体对象</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>列表组</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h3>基础列表组</h3>
+        <ul class="list-group">
+            <li class="list-group-item">揭开CSS3的面纱</li>
+            <li class="list-group-item">CSS3选择器</li>
+            <li class="list-group-item">CSS3边框</li>
+            <li class="list-group-item">CSS3背景</li>
+            <li class="list-group-item">CSS3文本</li>
+        </ul>
+        <h3>带徽章的列表组</h3>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <span class="badge">13</span>揭开CSS3的面
+            </li>
+            <li class="list-group-item">
+                <span class="badge">456</span>CSS3选择器
+            </li>
+            <li class="list-group-item">
+                <span class="badge">892</span>CSS3边框
+            </li>
+            <li class="list-group-item">
+                <span class="badge">90</span>CSS3背景
+            </li>
+            <li class="list-group-item">
+                <span class="badge">1290</span>CSS3文本
+            </li>
+        </ul>
+        <h3>带链接的列表组</h3>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="##">揭开CSS3的面</a>
+            </li>
+            <li class="list-group-item">
+                <a href="##">CSS3选择器</a>
+            </li>
+            <li class="list-group-item">
+                <a href="##">CSS3边框</a>
+            </li>
+            <li class="list-group-item">
+                <a href="##">CSS3背景</a>
+            </li>
+            <li class="list-group-item">
+                <a href="##">CSS3文本</a>
+            </li>
+        </ul>
+        <h3>自定义列表组</h3>
+        <div class="list-group">
+            <a href="##" class="list-group-item">
+                <h4 class="list-group-item-heading">图解CSS3</h4>
+                <p class="list-group-item-text">详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性...</p>
+            </a>
+            <a href="##" class="list-group-item">
+                <h4 class="list-group-item-heading">Sass中国</h4>
+                <p class="list-group-item-text">致力于为中国开发者提供最全面，最具影响力，最前沿的Sass相关技术与教程...</p>
+            </a>
+        </div>
+        <h3>组合列表项的状态</h3>
+        <div class="list-group">
+            <a href="##" class="list-group-item active"><span class="badge">5902</span>图解CSS3</a>
+            <a href="##" class="list-group-item"><span class="badge">15902</span>W3cplus</a>
+            <a href="##" class="list-group-item"><span class="badge">59020</span>慕课网</a>
+            <a href="##" class="list-group-item disabled"><span class="badge">0</span>Sass中国</a>
+        </div>
+        <h3>多彩列表组</h3>
+        <div class="list-group">
+            <a href="##" class="list-group-item active"><span class="badge">5902</span>图解CSS3</a>
+            <a href="##" class="list-group-item list-group-item-success"><span class="badge">15902</span>W3cplus</a>
+            <a href="##" class="list-group-item list-group-item-info"><span class="badge">59020</span>慕课网</a>
+            <a href="##" class="list-group-item list-group-item-warning"><span class="badge">0</span>Sass中国</a>
+            <a href="##" class="list-group-item list-group-item-danger"><span class="badge">10</span>Mobile教程</a>
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>列表组</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>面板</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <h3>基础面板</h3>
+        <div class="panel panel-default">
+            <div class="panel-body">我是一个基础面板，带有默认主题样式风格</div>
+        </div>
+        <h3>带有头和尾的面板</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性
+            </div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+        <h3>彩色面板</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">			详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性
+            </div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性</div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+        <div class="panel panel-success">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性</div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性</div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+        <div class="panel panel-warning">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性</div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+        <div class="panel panel-danger">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性</div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+        <h3>面板中嵌套表格</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">图解CSS3</div>
+            <div class="panel-body">
+                <p>详细讲解了选择器、边框、背景、文本、颜色、盒模型、伸缩布局盒模型、多列布局、渐变、过渡、动画、媒体、响应Web设计、Web字体等主题下涵盖的所有CSS3新特性
+                </p>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>＃</th>
+                        <th>我的书</th>
+                        <th>发布时间</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>《图解CSS3》</td>
+                        <td>2014-07-10</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-footer">作者：大漠</div>
+        </div>
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>面板</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>JS插件</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+    <div>
+        <!-- data-backdrop="static"-->
+        <button class="btn btn-primary" data-toggle="modal" data-target="#mymodal" type="button" data-keyboard="true">通过data-target触发</button>
+        <a data-toggle="modal" href="#mymodal" class="btn btn-primary">通过链接href属性触发</a>
+
+        <div class="modal fade" id="mymodal">
+            <!--<div class="modal-dialog modal-lg"> modal-lg 大的弹出框-->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">模态弹出窗标题</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>模态弹出窗主体内容</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="button" class="btn btn-primary">保存</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+    </div>
+    <p>》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》<strong>JS插件</strong>《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《</p>
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="../assets/js/jquery-1.11.1.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="../assets/js/bootstrap.min.js"></script>
+    <script>
+        // $(function(){
+        //     $(".btn").click(function(){
+        //         $("#mymodal").modal("toggle");
+        //     });
+        // });
+        // $(function(){
+        //     $(".btn").click(function(){
+        //         $("#mymodal").modal({
+        //             backdrop:false,
+        //             keyboard:false});
+        //     });
+        // });
+        $(function(){
+            // $(".btn").click(function(){
+            //     $("#mymodal").modal("toggle");
+            // });
+            $('#mymodal').on('show.bs.modal', function (e) {
+                alert("在show方法调用时立即触发（尚未显示之前）；如果单击了一个元素，那么该元素将作为事件的relatedTarget属性");
+            });
+            $('#mymodal').on('shown.bs.modal', function (e) {
+                alert("该事件在模态弹出窗完全显示给用户之后（并且等CSS动画完成之后）触发；如果单击了一个元素，那么该元素将作为事件的relatedTarget事件");
+            });
+            $('#mymodal').on('hide.bs.modal', function (e) {
+                alert("在hide方法调用时（但还未关闭隐藏）立即触发");
+            });
+            $('#mymodal').on('hidden.bs.modal', function (e) {
+                alert("该事件在模态弹出窗完全隐藏之后（并且CSS动画漂完成之后）触发");
+            });
+        });
+    </script>
+</body>
+</html>

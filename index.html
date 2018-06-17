@@ -8,11 +8,11 @@
     <title>我的厨房</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
     <![endif]-->
 
     <style>
@@ -27,22 +27,24 @@
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
         <!--<div class="container-fluid"> 左右对齐-->
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+            <!--导航条头部-->
             <div class="navbar-header">
+                <!--平时隐藏-->
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        data-target="#id-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+
                 <a class="navbar-brand" href="#">菜单</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!--导航条内容-->
+            <div class="collapse navbar-collapse" id="id-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">牛肉<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="#">牛肉</a></li>
                     <li><a href="#">羊肉</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -53,11 +55,10 @@
                             <li><a href="#">龙利鱼</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="#">水饺</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">四喜丸子</a></li>
                         </ul>
                     </li>
                 </ul>
+
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="请输入关键词">
@@ -70,8 +71,8 @@
     </nav>
 
 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-<script src="js/jquery-1.11.1.min.js"></script>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-<script src="js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
